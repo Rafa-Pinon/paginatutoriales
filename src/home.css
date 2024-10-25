@@ -1,0 +1,39 @@
+.inicio {
+    background-color: #f0f0f0; /* Color de fondo que deseas */
+    min-height: 100vh; /* Asegura que cubra el 100% de la pantalla */
+ 
+}
+
+.explico {
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; 
+}
+.botoncontainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5%;
+
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Espacio entre el ícono y el texto */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f4f5fa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  button:hover {
+    background-color: gray; /* Cambia el color de fondo al hacer hover */
+    color: #fff; /* Opcional: puedes cambiar también el color del texto */
+  }
+  
+  button .icon {
+    font-size: 20px;
+  }
